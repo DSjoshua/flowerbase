@@ -86,7 +86,7 @@ body{
     margin-bottom: 20px; /* Add some spacing below the image */
     border-radius: 15px; /* Add rounded corners to the image */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1); /* Add a more pronounced shadow */
-    animation: heartbeat 2s infinite; /* Apply heartbeat animation */
+   /* animation: heartbeat 2s infinite;  Apply heartbeat animation */
 }
 
 /* Hover effect */
@@ -566,25 +566,3 @@ button {
     }
 }
 
-/* Remove animation from .modal-content img */
-.modal-content img {
-    animation: none; /* Remove heartbeat animation */
-}
-
-/* Define a new class for the image animation */
-.image-animation {
-    max-width: 100%; /* Ensure image doesn't exceed modal width */
-    height: 100px; /* Maintain aspect ratio */
-    display: block; /* Prevent any alignment issues */
-    margin: 0 auto; /* Center the image horizontally */
-    margin-bottom: 20px; /* Add some spacing below the image */
-    border-radius: 15px; /* Add rounded corners to the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1); /* Add a more pronounced shadow */
-    animation: heartbeat 2s infinite; /* Apply heartbeat animation */
-}
-
-/* Hover effect for the image */
-.image-animation:hover {
-    transform: scale(1.05); /* Increase size on hover */
-    animation: none; /* Disable heartbeat animation on hover */
-}
