@@ -86,7 +86,7 @@ body{
     margin-bottom: 20px; /* Add some spacing below the image */
     border-radius: 15px; /* Add rounded corners to the image */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1); /* Add a more pronounced shadow */
-   /* animation: heartbeat 2s infinite;  Apply heartbeat animation */
+    animation: heartbeat 2s infinite; /* Apply heartbeat animation */
 }
 
 /* Hover effect */
