@@ -198,14 +198,20 @@
   }
 
   // Event listener for left message button
-  document
+  /*document
     .getElementById("open-modal-left")
     .addEventListener("click", function () {
       var leftMessageContent = document.getElementById(
         "left-message-content"
       ).innerHTML;
       openModalWithMessage(leftMessageContent);
-    });
+    });*/
+
+    // Event listener for right message button
+    document.getElementById("open-modal-left").addEventListener("click", function () {
+    // Redirect to the desired website
+    window.location.href = "https://notes-ella.netlify.app/"; // Replace "https://example.com" with the URL you want to redirect to
+  });
 
     // Event listener for right message button
     document.getElementById("open-modal-right").addEventListener("click", function () {
