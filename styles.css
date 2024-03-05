@@ -281,7 +281,6 @@ body{
     animation:flower-fall-down-purple  6s 1.2s linear forwards, flower-falling 6s 7.2s linear infinite;
 }
 
-
 @keyframes open-flower{
         0%{
             transform:  translateX(-50%) rotate(0);
