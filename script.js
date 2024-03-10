@@ -6,7 +6,7 @@ document.getElementById("open-modal-left").addEventListener("click", function ()
     // Event listener for right message button
     document.getElementById("open-modal-right").addEventListener("click", function () {
     // Redirect to the desired website
-    window.location.href = "https://bird-love.netlify.app/"; // Replace "https://example.com" with the URL you want to redirect to
+    window.location.href = "https://heart-repo.netlify.app/"; 
   });
 
   // JavaScript to create falling hearts
